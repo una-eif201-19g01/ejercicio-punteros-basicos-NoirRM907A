@@ -34,6 +34,16 @@ int Punteros::numeroAlCuboReferencia(int& numeroPtr) {
     return numeroPtr;
 }
 
+int Punteros::raizCuadradaValor(){}
+
+int Punteros::raizCuadradaPuntero(){}
+
+int Punteros::raizCuadradaReferencia(){}
+
+
+
+
+
 void Punteros::imprimirDatosPuntero() {
     int numero = 0;
     int *numeroPtr = nullptr;
