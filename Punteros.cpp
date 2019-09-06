@@ -8,6 +8,9 @@
  *        Created:  2019-08-19
  *
  *         Author:  Maikol Guzman Alan mikeguzman@gmail.com
+ *
+ *     Estudiante:  Noel Muñoz Ramírez
+ *
  *   Organization:  Universidad Nacional de Costa Rica
  *
  * =====================================================================================
@@ -16,6 +19,7 @@
 
 #include <iostream>
 #include "Punteros.h"
+#include <math.h>
 
 Punteros::Punteros() = default;
 
@@ -34,11 +38,17 @@ int Punteros::numeroAlCuboReferencia(int& numeroPtr) {
     return numeroPtr;
 }
 
-int Punteros::raizCuadradaValor(){}
+int Punteros::raizCuadradaValor(float valor1) {
+	return sqrt(valor1);
+}
 
-int Punteros::raizCuadradaPuntero(){}
+int Punteros::raizCuadradaPuntero(float *valor){
+	return sqrt(*valor);
+}
 
-int Punteros::raizCuadradaReferencia(){}
+int Punteros::raizCuadradaReferencia(float& valor){
+	return sqrt(valor);
+}
 
 
 

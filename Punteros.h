@@ -8,6 +8,9 @@
  *        Created:  2019-08-18
  *
  *         Author:  Maikol Guzman Alan mikeguzman@gmail.com
+ *
+ *     Estudiante:  Noel Muñoz Ramírez
+ *
  *   Organization:  Universidad Nacional de Costa Rica
  *
  * =====================================================================================
@@ -22,9 +25,9 @@ class Punteros {
     static int numeroAlCuboPuntero(int *);
     static int numeroAlCuboReferencia(int &);
 
-	int raizCuadradaValor();
-	int raizCuadradaPuntero();
-	int raizCuadradaReferencia();
+	int raizCuadradaValor(float);
+	int raizCuadradaPuntero(float*);
+	int raizCuadradaReferencia(float&);
 
 public:
     Punteros();
