@@ -38,15 +38,15 @@ int Punteros::numeroAlCuboReferencia(int& numeroPtr) {
     return numeroPtr;
 }
 
-int Punteros::raizCuadradaValor(float valor1) {
+int Punteros::raizCuadradaValor(int valor1) {
 	return sqrt(valor1);
 }
 
-int Punteros::raizCuadradaPuntero(float *valor){
+int Punteros::raizCuadradaPuntero(int *valor){
 	return sqrt(*valor);
 }
 
-int Punteros::raizCuadradaReferencia(float& valor){
+int Punteros::raizCuadradaReferencia(int& valor){
 	return sqrt(valor);
 }
 
